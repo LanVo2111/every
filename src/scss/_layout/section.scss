@@ -1,0 +1,107 @@
+.sky {
+  background: rgb(74, 74, 74);
+  padding: 10px 0px;
+
+  &-inner {
+    display: flex;
+    align-items: center;
+    height: 200px;
+    position: relative;
+    overflow: hidden;
+  }
+}
+
+.scroll-message {
+  position: absolute;
+  left: 10.88vw;
+  color: #fff;
+  margin: 0px 24px;
+
+  &::after {
+    content: url(../images/scroll-arrow.png);
+    position: absolute;
+    top: 15px;
+    left: 60px;
+    opacity: 0.8;
+  }
+}
+
+.bedroom-floor {
+  background: #d49e99;
+  height: 100%;
+}
+
+.floor-inner {
+  width: 100%;
+  height: 94%;
+  min-height: 400px;
+  position: relative;
+  padding: 40px 0px;
+}
+
+.floor-inner-below {
+  width: 100%;
+  height: 35%;
+  min-height: 200px;
+  padding: 0;
+  position: relative;
+  top: -35%;
+}
+
+.character-container-inner{
+  height: 94%;
+  min-height: 400px;
+  padding: 40px 0;
+  position: relative;
+}
+
+.shower-curtain {
+  position: absolute;
+  left: 35%;
+  top: 170px;
+  background: transparent url(../images/shower-curtain.png) no-repeat 0 0;
+  width: 451px;
+  height: 368px;
+}
+
+.character-container{
+  width: 100%;
+  height: 100%;
+}
+
+//bathroom
+.bathroom-wall{
+  height: 36%;
+  background: #5e9193;
+  min-height: 300px;
+}
+
+.bathroom-floor{
+  height: 64%;
+  background: transparent url('../images/bathroom-tile.png') 0 0;
+}
+
+.wall-inner{
+  position: relative;
+  min-height: 300px;
+}
+
+.wardrobe-wall{
+  height: 36%;
+  position: relative;
+  min-height: 300px;
+  background: #74525f;
+}
+
+.wardrobe-floor {
+  height: 64%;
+  background: #c1e2ec;
+}
+
+//kitchen
+.kitchen-wall{
+  height: 36%;
+  max-height: 347px;
+  background: #5e9193;
+  min-height: 300px;
+}

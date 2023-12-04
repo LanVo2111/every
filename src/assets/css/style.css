@@ -1,0 +1,277 @@
+body,
+html {
+  margin: 0;
+  padding: 0;
+  height: 74880px;
+}
+
+.wrapper {
+  max-width: 1200px;
+  margin: 0 auto;
+}
+
+.scene {
+  position: fixed;
+  width: 100%;
+  height: 100%;
+}
+
+.container {
+  width: 100%;
+  height: 100%;
+  position: fixed;
+  background: #354250;
+}
+
+.sky {
+  background: rgb(74, 74, 74);
+  padding: 10px 0px;
+}
+.sky-inner {
+  display: flex;
+  align-items: center;
+  height: 200px;
+  position: relative;
+  overflow: hidden;
+}
+
+.scroll-message {
+  position: absolute;
+  left: 10.88vw;
+  color: #fff;
+  margin: 0px 24px;
+}
+.scroll-message::after {
+  content: url(../images/scroll-arrow.png);
+  position: absolute;
+  top: 15px;
+  left: 60px;
+  opacity: 0.8;
+}
+
+.bedroom-floor {
+  background: #d49e99;
+  height: 100%;
+}
+
+.floor-inner {
+  width: 100%;
+  height: 94%;
+  min-height: 400px;
+  position: relative;
+  padding: 40px 0px;
+}
+
+.floor-inner-below {
+  width: 100%;
+  height: 35%;
+  min-height: 200px;
+  padding: 0;
+  position: relative;
+  top: -35%;
+}
+
+.character-container-inner {
+  height: 94%;
+  min-height: 400px;
+  padding: 40px 0;
+  position: relative;
+}
+
+.shower-curtain {
+  position: absolute;
+  left: 35%;
+  top: 170px;
+  background: transparent url(../images/shower-curtain.png) no-repeat 0 0;
+  width: 451px;
+  height: 368px;
+}
+
+.character-container {
+  width: 100%;
+  height: 100%;
+}
+
+.bathroom-wall {
+  height: 36%;
+  background: #5e9193;
+  min-height: 300px;
+}
+
+.bathroom-floor {
+  height: 64%;
+  background: transparent url("../images/bathroom-tile.png") 0 0;
+}
+
+.wall-inner {
+  position: relative;
+  min-height: 300px;
+}
+
+.wardrobe-wall {
+  height: 36%;
+  position: relative;
+  min-height: 300px;
+  background: #74525f;
+}
+
+.wardrobe-floor {
+  height: 64%;
+  background: #c1e2ec;
+}
+
+.kitchen-wall {
+  height: 36%;
+  max-height: 347px;
+  background: #5e9193;
+  min-height: 300px;
+}
+
+img {
+  position: absolute;
+}
+img.stars {
+  max-width: 619px;
+  right: 77px;
+  right: 5.347vw;
+}
+img.moon {
+  right: 0;
+}
+img.sun {
+  width: 163px;
+  height: 163px;
+  right: 0;
+  top: 100%;
+}
+img.desk {
+  width: 389px;
+  z-index: 2;
+}
+img.side-table {
+  width: 126px;
+  right: 0;
+}
+img.rug {
+  width: 375px;
+  max-height: 160px;
+  height: 70%;
+  top: 20%;
+  z-index: 1;
+}
+img.tree {
+  width: 91px;
+  max-height: 208px;
+  height: 70%;
+  right: 0;
+  top: -20%;
+}
+img.bed-frame, img.bed-sheet {
+  width: 369px;
+  max-height: 525px;
+  min-width: 320px;
+  min-height: 455px;
+  top: 290px;
+  left: 50%;
+}
+img.juan {
+  top: 360px;
+  left: calc(50% + 40px);
+  width: 126px;
+  max-height: 315px;
+  height: 80%;
+}
+img.juan-clothes {
+  top: 261px;
+  left: 600px;
+}
+img.juan-nomnom {
+  left: 105px;
+  top: 270px;
+}
+img.juan-shower {
+  top: 260px;
+  left: 600px;
+}
+img.bath {
+  left: 36%;
+  top: 140px;
+}
+img.table {
+  top: 500px;
+}
+img.pathroom-light {
+  left: 47%;
+  z-index: 200;
+}
+img.mirror, img.mirror-text {
+  top: 10%;
+  width: 350px;
+  height: 223px;
+}
+img.self {
+  left: 50%;
+  top: 50%;
+}
+img.window {
+  top: 15%;
+  left: 77%;
+}
+img.clock-face, img.clock-hand {
+  top: 30%;
+  right: 0;
+}
+img.bathroom-mat {
+  top: 400px;
+  left: 36%;
+  width: 411px;
+  height: 152px;
+}
+img.bathroom-chair {
+  right: 0;
+  top: 14%;
+  width: 104px;
+  height: 259px;
+}
+img.bathroom-sink {
+  left: 0;
+  top: 10%;
+  width: 270px;
+  height: 344px;
+}
+img.bathroom-light {
+  left: 47%;
+  z-index: 3;
+}
+img.wardrobe, img.wardrobe-rail {
+  top: 20%;
+}
+img.picture-frame {
+  right: 15%;
+  top: 21%;
+}
+img.lamp {
+  width: 155px;
+  height: 297px;
+  right: 0;
+  margin-top: 20%;
+}
+img.wardrobe-rug {
+  width: 370px;
+  min-height: 100px;
+  height: 100%;
+}
+img.kitchen-counters {
+  width: 400px;
+  height: 630px;
+  right: 0;
+  top: 20%;
+}
+img.knife-rack {
+  left: 27%;
+  top: 30%;
+}
+img.knife-shelf {
+  right: 30%;
+  top: 20%;
+}/*# sourceMappingURL=style.css.map */
